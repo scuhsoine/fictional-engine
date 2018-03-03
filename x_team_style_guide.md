@@ -1,35 +1,29 @@
-# X-Team NN Style Guide
-
-<brief description of your team's opinion or philosophy regarding Style Guides>
+# X-Team 54 Style Guide
+* Style guides are good for keeping code consistent through multiple team members who might have different coding styles
 
 ## Naming conventions
 
-<brief statement describing your team's naming conventions>
-
-### Examples
-* interfaces
-* classes
-* exception types
-* fields
-* methods
-* parameters
-* local variables
-* instance constants
-* class constants
+* interfaces, classes - UpperCamelCase 
+* exception types - same as interface & class, have Exception at end of name
+* fields, methods, parameters, local variables - camelCase
+* instance & class constants - CONSTANT_CASE
 
 ## Commenting style for public and private members of a class or interface:
 
-<brief statement of your team's commenting style>
+* use javadoc for most of comments, use // for comments within blocks of code to explain anything not obvious
 
-### Examples
 
-* classes
-* fields
-* constructors
-* methods
-* coding style (brackets, horizontal, and vertical spacing) for:
-  * if statements
-  * switch statement
-  * while loops
-  * for loops
-  * enhanced for loops
+* classes - have class header explaining general information
+* fields - explain what field does if not obvious
+* constructors - explain function of constructor and use @ tags to explain any parameters it takes
+* methods - explain function of method, use @ tags to explain return, parameters, and any pre/post conditions of the method
+
+
+
+## Coding style (brackets, horizontal, and vertical spacing)
+* Tabs, not spaces
+* Brackets are spaced by 1 space, not a new line
+* use @ tags whenever possible (@Override, etc.)
+* declare arrays in non-C style
+* one line per variable declaration
+* use uppercase L when using longs
