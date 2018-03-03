@@ -14,15 +14,16 @@ and missed deadlines.
 
 
 ## How will we will track progress (and follow-up) on completion of tasks
+* We will post and pin important progress and add a commit to any repositories for the project
+* Any followup discussion can be done through voice or text
 
 
-
-## How will will communicate difficulties with a task assigned to us
-
+## How will we communicate difficulties with a task assigned to us
+* Through voice on Discord (politely) or through E-mail if the problem is personal
 
 
 ## How we will back up each other to ensure that deadlines are not missed
-
+* We will communicate the deadlines and give stern but friendly reminders to team members that are not contributing enough
 
 
 
